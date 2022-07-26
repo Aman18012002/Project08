@@ -1,0 +1,288 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+
+}
+.logo{
+  width: 4rem;
+}
+.navigation,.hero-section{
+  background-color: #0D0D0D;
+}
+.navigation-controll{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+}
+.nav-links{
+  display: flex;
+  gap: 4rem;
+  
+}
+.nav-text{
+  list-style: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+.nav-text:hover{
+  color: #C91B28;
+  cursor: pointer;
+}
+.hero-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+.smal-heading{
+  color:#C91B28 ;
+}
+.big-heading{
+  font-size: 4.1rem;
+  color: #fff;
+}
+.hero-para{
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.hero-btn{
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  font-size: 1.2rem;
+  background-color:#C91B28;
+  border: none;
+  color: #fff;
+  padding-top:1rem;
+  padding-bottom: 1rem;
+  cursor: pointer;
+}
+.hero-img{
+  width: 60%;
+}
+/* Hero Intro */
+.background-color{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 2.5rem;
+ margin-top: 4rem;
+}
+.heading-1{
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.card-1-para{
+  color: #fff;
+  font-size: 1.4rem;
+}
+.arrow-text{
+  color: #C91B28;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+.cards{
+  background-color: #1E1E1E;
+  width: 25rem;
+  height: 25rem;
+  padding: 4rem;
+
+}
+.text-white{
+  color: #fff;
+}
+.cardred{
+  background-color: #C91B28;
+}
+.intro-hero{
+  background-color: #2a2a2a;
+ padding: 4rem;
+}
+/* Experienace section */
+
+.exp-1,.exp-2{
+  background-color:#1E1E1E;
+  width: 20rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.erperiance-count{
+  display: flex;
+ 
+
+}
+.experiance-section{
+  padding-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.client{
+  font-size: 3.5rem;
+  color: #C91B28;
+}
+.client-para{
+  color: #fff;
+  font-size: 1.2rem;
+}
+.ex-heading{
+  color: #C91B28;
+  font-size: 6.5rem;
+  font-weight: 800;
+}
+.experiance{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ex-para{
+  color: #fff;
+  font-size: 1.4rem;
+}
+.experiance-section{
+  display: flex;
+  background-color: #2a2a2a;
+}
+.exp-1{
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+/* after Experiance section */
+.text-btn{
+  background-color: #0D0D0D;
+}
+.heading-right{
+  color: #fff;
+  font-size: 2.1rem;
+  text-transform:uppercase;
+}
+.para-right{
+  color: #fff;
+}
+.text-btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4rem;
+}
+.extrabtn{
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+.project-section{
+  background-color: #0D0D0D;
+
+}
+/* Project IMages */
+.project-imgs{
+  padding-top:4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 4rem;
+  width: 35rem;
+  background-color: #1E1E1E;
+}
+.vintage{
+  color: #fff;
+  font-size: 1.4rem;
+}
+.project-para{
+  color:#C91B28;
+  font-size: 1.2rem;
+}
+.div-1,.div-2{
+  
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.project-1{
+  margin-top: 4rem;
+}
+.lastimg{
+ padding-top: 6.8rem;
+}
+/* Contact Secrtion*/
+.Conatct{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  background-color: #0D0D0D;
+ 
+}
+.heading-cont{
+  font-size: 3.4rem;
+  color: #fff;
+  font-weight: 500;
+}
+.contact-para{
+ color: #fff;
+}
+.contact-para{
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+.temp{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1E1E1E;
+  padding: 3rem;
+}
+/* Footer text */
+.footer-texxt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.footer-text{
+  background-color: #0D0D0D;
+  padding-top: 2rem;
+}
+.text{
+  list-style: none;
+  color: #fff;
+  padding-bottom: 2rem;
+}
+
+.footerpart{
+  padding: 2rem;
+  background-color: #1E1E1E;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.icon-1{
+  list-style: none;
+}
+.icon-list{
+  display: flex;
+  gap: 4rem;
+}
+.iconss{
+  font-size: 1.8rem;
+  color: #fff;
+}
+.iconss:hover{
+  color: #C91B28;
+  cursor: pointer;
+}
