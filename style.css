@@ -35,11 +35,40 @@
   color: #C91B28;
   cursor: pointer;
 }
+
+/* NavBar Responsive SEction */
+
+@media (max-width:780px){
+.navigation-links{
+  display: none;
+}  
+}
+/* Navbar Responsive End here */
+
+/* HeroSction Responsive */
+
+@media (max-width:780px){
+.hero-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+} 
+html{
+  font-size: 85%;
+}
+.hero-img{
+  width: 90%;
+} 
+}
+/* Heerosection Responsive end here */
+
 .hero-section{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 3rem;
+ 
 }
 .smal-heading{
   color:#C91B28 ;
@@ -65,15 +94,33 @@
   cursor: pointer;
 }
 .hero-img{
-  width: 60%;
+  width: 80%;
 }
+
+
+/* Intro Part Responsive Started here */
+
+@media (max-width:480px){
+  .cards{
+    width:20rem;
+    height: 25rem;
+  }
+  .logo-img{
+    width: 30%;
+  }
+  .intro-hero{
+    background-color: #2a2a2a;
+    padding: 1rem; 
+  }
+}
+
+
 /* Hero Intro */
 .background-color{
  display: flex;
  align-items: center;
- justify-content: center;
- gap: 2.5rem;
- margin-top: 4rem;
+ justify-content: space-around;
+ flex-wrap: wrap;
 }
 .heading-1{
   color: #fff;
@@ -83,6 +130,7 @@
 .card-1-para{
   color: #fff;
   font-size: 1.4rem;
+  line-height: 2rem;
 }
 .arrow-text{
   color: #C91B28;
@@ -91,14 +139,24 @@
   font-weight: 500;
   cursor: pointer;
 }
-
-
+.card-logo{
+  margin-bottom: 2rem;
+}
+.arrow-text{
+  margin-top: 2rem;
+}
+.heading-1{
+  margin-top: 2rem;
+}
 .cards{
   background-color: #1E1E1E;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   width: 25rem;
   height: 25rem;
-  padding: 4rem;
-
+  margin-bottom: 2rem;
 }
 .text-white{
   color: #fff;
@@ -108,8 +166,45 @@
 }
 .intro-hero{
   background-color: #2a2a2a;
- padding: 4rem;
+  padding: 2rem; 
 }
+.logo-img{
+  width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Experience Section Responsiveness*/
+@media (max-width:709px){
+ .experiance{
+  margin-bottom: 2rem;
+ } 
+}
+@media (max-width:557px){
+.grid-use{
+ display: flex;
+ flex-direction: column; 
+}
+.erperiance-count{
+  display: flex;
+  flex-direction: column;
+
+}
+.top{
+  margin-top: 1rem;
+}
+}
+/* Experience Section Responsive Part  End Here */
+
 /* Experienace section */
 
 .exp-1,.exp-2{
@@ -124,11 +219,13 @@
 .erperiance-count{
   display: flex;
  
+ 
 
 }
 .experiance-section{
   padding-bottom: 4rem;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
 }
@@ -163,6 +260,26 @@
   margin-right: 1rem;
 }
 
+/* After Experience Section Part Section Started Here */
+
+@media (max-width:790px) {
+.text-btn{
+  padding: 1rem;
+}
+.viewbtn{
+  margin-top: 1rem;
+}
+.project-222{
+  margin-bottom: 1rem;
+}
+.div-1,.div-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+}
+
 /* after Experiance section */
 .text-btn{
   background-color: #0D0D0D;
@@ -178,6 +295,7 @@
 .text-btn{
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding: 4rem;
 }
@@ -185,19 +303,22 @@
   padding-top: .5rem;
   padding-bottom: .5rem;
 }
-.project-section{
+.project-section{  
   background-color: #0D0D0D;
 
 }
 /* Project IMages */
-.project-imgs{
-  padding-top:4rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 4rem;
-  width: 35rem;
-  background-color: #1E1E1E;
+/* background-color: #1E1E1E; */
+.project-imgs-1,.project-imgs-2,.project-imgs-3,.project-imgs-4{
+  width: 80%;
+  padding: 2rem;
+  background-color: #2A2A2A;
+ 
 }
+.project-section{
+  padding-left: 5rem;
+}
+
 .vintage{
   color: #fff;
   font-size: 1.4rem;
@@ -207,18 +328,12 @@
   font-size: 1.2rem;
 }
 .div-1,.div-2{
-  
   display: flex;
-  gap: 3rem;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
-.project-1{
-  margin-top: 4rem;
-}
-.lastimg{
- padding-top: 6.8rem;
-}
+
+
 /* Contact Secrtion*/
 .Conatct{
   padding-left: 5rem;
@@ -240,9 +355,26 @@
   font-size: 1.2rem;
   margin-top: 2rem;
 }
+@media (max-width:990px){
+  .temp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-btm{
+    margin-top: 1rem;
+  }
+}
+@media (max-width:480px){
+  html{
+    font-size: 55%;
+  }
+}
+
 .temp{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: #1E1E1E;
   padding: 3rem;
